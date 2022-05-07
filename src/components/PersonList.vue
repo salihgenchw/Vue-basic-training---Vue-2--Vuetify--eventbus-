@@ -6,7 +6,10 @@
       <v-col
         v-for="person in personArr"
         :key="person.id"
-        class="col-lg-4 col-md-6 col-sm-10 col-xs-10"
+        cols="12"
+        sm="10"
+        md="4"
+        xs="12"
       >
         <v-card>
           <v-card-title class="d-flex justify-center">

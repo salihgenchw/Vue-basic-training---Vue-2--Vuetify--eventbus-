@@ -1,7 +1,11 @@
 <template>
   <v-app>
-    <v-app-bar app color="orange lighten-1">
-      <div class="d-flex align-center justify-sm-center">
+    <v-app-bar
+      app
+      color="orange lighten-1"
+      class="d-flex justify-md-start justify-center"
+    >
+      <div class="d-flex align-center">
         <h1 class="shrink mt-1">AtPerson</h1>
       </div>
     </v-app-bar>
