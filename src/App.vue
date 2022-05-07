@@ -24,9 +24,8 @@ export default {
     FormView,
     PersonList,
   },
-
-  data: () => ({
-    //
-  }),
+  created() {
+    document.title = "Saturday Training";
+  },
 };
 </script>
